@@ -59,6 +59,33 @@ A two-page visualization report had to be made to give a well-detailed report.
 **Visualization 2: Custumer Risk analysis**
 ![](Capture3.JPG)
 
+.
+An email was sent to the engagement partner with the following insights and recommendations:
+
+**Here are some insights from the Analysis:**
+
+- The dataset is balanced in terms of gender with 3555 males and the rest females.
+- Most customers are not senior citizens, with only about 16.2% being senior citizens.
+- Most customers do not have partners or dependents.
+- The average tenure of a customer with the company is approximately 32.37 months, with a maximum of 72 months.
+- Most customers have phone service, and among those who do, most do not have multiple lines.
+- The most common type of internet service is Fiber optic.
+- Most customers do not have online security, online backup, device protection, tech support, streaming TV, or streaming movies.
+- The most common contract type is month-to-month.
+- Most customers have opted for paperless billing.
+- The most common payment method is “electronic check”.
+- The average monthly charge is approximately 64.76, with a maximum of 118.75.
+- The average number of administrative and technical tickets a customer raises is approximately 0.52 and 0.42 respectively.
+- The majority of customers have not churned.
+
+**Recommendations:**
+
+- The company could focus on promoting online security, online backup, device protection, tech support, streaming TV, and streaming movies as these services are not widely used by the customers.
+- The company could consider offering more incentives for customers to opt for longer-term contracts as most customers are on a month-to-month contract.
+- The company could look into offering more payment options as the majority of customers use electronic checks, which may not be the most convenient method for everyone.
+- The company could investigate why the churn rate is high and take appropriate measures to improve customer retention.
+
+
 
 
 

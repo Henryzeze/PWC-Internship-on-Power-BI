@@ -12,7 +12,7 @@ This GitHub repository encompasses a virtual experience where team members assis
 
 **Team Collaboration:** Collaboration with a proficient team to address the client's needs and deliver optimal solutions.
 
-### Assignments:
+## Assignments
 
 **Call Center Assignment:** Assisting the retention manager in identifying employees and clients contemplating leaving the company.
 
@@ -21,19 +21,19 @@ This GitHub repository encompasses a virtual experience where team members assis
 Client Challenges: Acknowledging that change can be challenging for clients, but believing it drives innovation and the discovery of effective solutions.
 
 
-## Assignment 1:  Call Centre
+## Assignments
 
 ### Task 1
 
 Claire, the Call Centre Manager at PhoneNow, seeks a comprehensive overview of critical Key Performance Indicators (KPIs) and metrics related to the Call Centre's operations. She desires transparency and insights into various aspects such as total calls answered and abandoned, speed of answer, call duration, overall customer satisfaction, and more. Claire is interested in visualizing long-term trends in customer and agent behavior to facilitate discussions with the management team. The task involves creating a Power BI dashboard that effectively displays relevant KPIs and metrics extracted from the dataset provided by Claire, aiming to offer a clear and insightful representation of Call Centre trends. The dashboard will serve as a basis for meaningful discussions and decision-making within the management team.
 
-### Cleaning / Data Wrangling
+#### Cleaning / Data Wrangling
 - The "Answered" column has a value of "N" (indicating the call was not answered), it's expected and normal to have null values for "Speed of answer in seconds", "Avg Talk Duration", and "Satisfaction rating" since these metrics don't apply to unanswered calls. In this case, leaving these fields as null is appropriate as it accurately represents the absence of data due to the unanswered call.
 - The dataset was then sorted by the "Answered" column from lowest to highest (sort A to Z)
 - The "AvgTalkDuration" Column was converted from minutes to seconds and the column name was changed to "AvgTalkDuration in seconds" for better analysis
 - There were no duplicate entries and all columns were well formatted with the correct data types.
 
-### Analysis and Visualization
+#### Analysis and Visualization
 - New calculated measure for No. of Answered calls was calculated with DAX using ***No. of answered = Calculate(distinctcount('Call Center'[Call Id]),Filter('Call Center','Call Center'[Answered (Y/N)]="Y"))***
 - New calculated measure for No. of Resolved calls was calculated with DAX using ***No. of resolved = Calculate(distinctcount('Call Center'[Call Id]),Filter('Call Center','Call Center'[Resolved]="Y"))***
 - New Calculated measure for ***Target Satisfaction = 4.5*** was calculated using DAX
@@ -49,7 +49,7 @@ Following the successful creation and presentation of a customer-centric dashboa
 
 ***The Dataset was clean and well-transformed so i went straight to visualization***
 
-### Analysis and Visualization
+#### Analysis and Visualization
 
 A two-page visualization report had to be made to give a well-detailed report.
 
@@ -86,6 +86,33 @@ An email was sent to the engagement partner with the following insights and reco
 - The company could investigate why the churn rate is high and take appropriate measures to improve customer retention.
 
 
+### Task 3
+
+The task involves assisting the Human Resources department at the telecom client, which is struggling to achieve gender balance at the executive management level despite concerted efforts towards diversity and inclusion. PwC Switzerland has been approached for support in addressing this challenge, highlighting the criticality of diversity and inclusion as business imperatives. The aim is to help the client identify and understand the root causes hindering progress in achieving gender balance. This entails defining key performance indicators (KPIs) related to gender diversity in hiring, promotion, performance, and turnover. The defined KPIs will be visually represented through appropriate visualizations. Additionally, the task requires providing insights into potential root causes for the lack of progress in achieving gender balance at the executive level, considering factors such as strategy, awareness, education, analytics, and inspiration to unravel the practical challenges associated with diversity and inclusion efforts.
+
+***The Dataset was clean and well-transformed so I went straight to visualization***
+
+#### Analysis and Visualization
+
+#### Analysis and Visualization
+
+A two-page visualization report had to be made to give a well-detailed report.
+
+**Visualization 1: Diversity & Inclusion pg-1**
+![](Capture4.JPG)
+
+**Visualization 1: Diversity & Inclusion pg-2**
+![](Capture5.JPG)
+
+#### Insights
+
+- From the visuals, we can see that there is a significant gender imbalance at the executive management level (Executive and Director levels). The number of males is significantly higher than the number of females at these levels. This could be one of the reasons for the slow progress in achieving gender balance at the executive management level.
+- We can also see that more males were promoted compared to females. This could be another contributing factor to the slow progress in achieving gender balance at the executive management level.
+- We can also see that the performance ratings are relatively similar for both genders. However, more males received a rating of 2 or 3, which are presumably higher ratings. This could potentially influence promotion decisions and contribute to the gender imbalance at the executive management level.
+
+## Certificate of Completion
+
+![](certificate.jpg)
 
 
 

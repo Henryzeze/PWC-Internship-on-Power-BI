@@ -47,4 +47,18 @@ Claire, the Call Centre Manager at PhoneNow, seeks a comprehensive overview of c
 
 Following the successful creation and presentation of a customer-centric dashboard to the management, the telecom's Retention Manager reached out to request a dashboard focusing on customer retention. They aim to proactively identify customers at risk of terminating their contracts rather than reacting after contract termination. The Retention Manager emphasizes the importance of retaining hard-earned customers and the current limitations in analyzing customer data using Excel, seeking a clearer, self-explanatory visual representation for effective management understanding. Additionally, a meeting with the engagement partner at PwC is scheduled to discuss the significance of customer retention and the need for predictive analysis to preemptively address potential contract terminations. The retention manager has provided initial information to aid in this endeavor. The task involves creating a new dashboard focusing on customer retention metrics and insights, aligning with the telecom's proactive approach to prevent customer churn. Additionally, it involves summarizing findings and suggesting necessary changes based on the dashboard's insights in an email to the engagement partner at PwC.
 
+***The Dataset was clean and well-transformed so i went straight to visualization***
+
+### Analysis and Visualization
+
+A two-page visualization report had to be made to give a well-detailed report.
+
+**Visualization 1: Churn Dashboard**
+![](Capture2.JPG)
+
+**Visualization 2: Custumer Risk analysis**
+![](Capture3.JPG)
+
+
+
 

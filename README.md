@@ -1,5 +1,7 @@
 # PWC-Internship-on-Power-BI
 
+![](pwc.jpg)
+
 ## Overview
 
 This GitHub repository encompasses a virtual experience where team members assist clients in resolving critical issues through technology-driven solutions. The primary tool utilized in this project is Power BI, employed for data cleaning, wrangling, and visualization to enhance the client's understanding of their customer base and internal workforce.
@@ -33,5 +35,9 @@ Claire, the Call Centre Manager at PhoneNow, seeks a comprehensive overview of c
 - New calculated measure for No. of Answered calls was calculated with DAX using ***No. of answered = Calculate(distinctcount('Call Center'[Call Id]),Filter('Call Center','Call Center'[Answered (Y/N)]="Y"))***
 - New calculated measure for No. of Resolved calls was calculated with DAX using ***No. of resolved = Calculate(distinctcount('Call Center'[Call Id]),Filter('Call Center','Call Center'[Resolved]="Y"))***
 - New Calculated measire for Target Satisfaction = 4.5 was calculated using DAX
+
+- Below is the Power BI visuals created:
+
+![](Capture.JPG)
 
 
